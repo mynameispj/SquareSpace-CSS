@@ -1,0 +1,36 @@
+@import 'partials/colors';
+@import 'partials/type';
+
+/* Header styling */
+.Header-branding {
+    @extend %headline; 
+  }
+  
+  .Header-nav, 
+  .Header-tagline {
+  
+  }
+  
+  
+  .Header.Header--top .Header-inner {
+    padding-bottom: 0px; 
+  }
+  
+  
+  /* Header nav links */
+  #yui_3_17_2_1_1522523108119_449 .Header-nav-item {
+    margin-top: 0px;
+    padding-top: 0.2em;	
+    padding-bottom: 0.1em; 	
+  }
+  
+  /* Index page styling */
+  
+  #block-yui_3_17_2_1_1522524659300_4995 h2 {
+    font-size: 48px;	
+  }
+  
+  .Index-page-content #block-yui_3_17_2_1_1521335523456_10753 p {
+      font-size: 36px;
+      line-height: 1.3em;
+  }
